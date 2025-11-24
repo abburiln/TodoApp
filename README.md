@@ -385,3 +385,19 @@ If you want, I can convert this to:
 🏛 **Management decision note**
 Just tell me the format you prefer.
 
+
+
+📊 Enhanced Summary Comparison Table (Confluence Ready)
+Capability	Howso	SDV Community	SDV Enterprise
+1	Deployment & Infrastructure	❌ Heavy, complex (multiple components: API, MinIO, Redis, UMS, SMS)	✔ Lightweight Python library	⭐ Lightweight + enterprise deployment tooling
+2	Multi-Table Synthesis	❌ Limited (mostly single-table)	✔ Good (practical up to ~4 tables)	⭐ Advanced (20–50+ tables, HMASynth optimized)
+3	Scalability	❌ Single-node only	⚠ Partial scaling	⭐ Fully distributed (Ray / Spark / GPU)
+4	Constraints & Business Rules	❌ Very limited	✔ Flexible	⭐ Fully programmable (enterprise constraints engine)
+5	Transparency	❌ Black-box (limited visibility)	✔ Open-source & transparent	⭐ Open + governance, auditability, lineage
+6	Integration & Automation	❌ Difficult, manual	✔ Easy (Python-first)	⭐ Very easy (SDKs, CI/CD, enterprise automation hooks)
+7	Training Method	❌ Must load full dataset (DL-based, slow)	✔ Learns sampled distributions	⭐ Enterprise-optimized relational training engine
+8	Privacy Protection	❌ Heavy manual tuning	⚠ Basic privacy tests	⭐ Advanced privacy suite (MI risk, linkage attacks, DP)
+9	Evaluation Metrics	❌ Basic	✔ Moderate	⭐ 100+ SDMetrics Enterprise + automated reports
+10	Governance & Model Registry	❌ None	❌ None	⭐ Full registry, versioning, lineage, audit logs
+11	Licensing & Support	Paid + vendor dependency	Free	Paid with SLAs, enterprise support, certified builds
+
